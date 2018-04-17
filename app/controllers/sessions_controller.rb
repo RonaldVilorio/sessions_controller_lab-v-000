@@ -3,6 +3,8 @@ class SessionsController < ApplicationController
     # puts inspect.params
     if params[:name].nil? || params[:name].empty?
       redirect_to '/login'
+    else
+      
     end
   end
 end
