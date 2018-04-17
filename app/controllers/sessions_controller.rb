@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
   def create
-    if params[:name].nil
+    if params[:name].nil?
+      redirect
     end
   end
 end
