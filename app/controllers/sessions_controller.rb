@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
   def create
-    params[:name]
+    ifparams[:name]
   end
 end
